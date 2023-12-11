@@ -1,0 +1,29 @@
+.menu {
+    display: flex;
+}
+
+.menu-item {
+    width: 25%;
+    background-color: gold;
+    list-style: none;
+    transition: 0.5s;
+}
+
+.menu-item:hover {
+    width: 35%; /* 마우스 올려두면 해당 item 의 폭을 좀 늘려주려고 */
+    background-color: crimson;
+}
+
+.menu-link {
+    display: block; /* 여백을 클릭해도 메뉴가 쉽게 클릭 할  수 있도록 */
+    padding: 1em;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #555;
+    text-decoration: none; /* 밑줄 없애주는거 */
+    text-align: center;
+}
+
+.menu-link:hover {
+    color: white;
+}
