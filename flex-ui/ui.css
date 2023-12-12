@@ -1,3 +1,4 @@
+/* menu */
 .menu {
     display: flex;
 }
@@ -26,4 +27,11 @@
 
 .menu-link:hover {
     color: white;
+}
+
+/* search */
+.search-form input[type="search"] {
+    border: 0;
+    border-radius: 0.3em;
+    font-size: 1rem;
 }
