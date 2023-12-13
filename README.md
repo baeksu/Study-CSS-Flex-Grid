@@ -18,3 +18,15 @@
 <p align="center">
 <img width="400" alt="image" src="https://github.com/baeksu/saveImage/assets/37931758/0ca2c1cd-dea8-46fd-9e6b-ba5fd7cdc123">
 </p>
+
+## 💡입력창 만들기
+
+입력창과 제출버튼이 flex 로 묶여있는 상황이다.
+
+1. **flex-item** 들은 container 의 height 를 따라간다.
+
+2. 입력창의 경우 화면을 늘리면 함께 늘어나는데, 이 때 사용하는 속성이 **flex: 1;** 이다. 만약에 버튼-item 에도 같은 속성을 적용해주면 균등한 너비를 차지하면서 늘어나게 된다.
+
+<p align="center">
+<img width="400" alt="image" src="https://github.com/baeksu/saveImage/assets/37931758/b9e50a6a-ba10-401e-aef1-395924ebc9fd">
+</p>
