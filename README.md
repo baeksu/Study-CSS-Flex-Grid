@@ -19,6 +19,8 @@
 <img width="400" alt="image" src="https://github.com/baeksu/saveImage/assets/37931758/0ca2c1cd-dea8-46fd-9e6b-ba5fd7cdc123">
 </p>
 
+---
+
 ## 💡입력창 만들기
 
 입력창과 제출버튼이 flex 로 묶여있는 상황이다.
@@ -29,4 +31,16 @@
 
 <p align="center">
 <img width="400" alt="image" src="https://github.com/baeksu/saveImage/assets/37931758/b9e50a6a-ba10-401e-aef1-395924ebc9fd">
+</p>
+
+---
+
+## 💡bullet 리스트
+
+**&lt;/li&gt;** 태그에 flex 를 적용하면 맨앞에 **∙**(닷) 이 사라지게 된다. 이때 원하는 bullet 리스트 이미지를 넣어준다.
+
+이때 가상요소 **( ::before )** 의 **content** 속성을 이용하여 쉽게 bullet 리스트를 만들어 줄 수 있다.
+
+<p align="center">
+<img width="400" alt="image" src="https://github.com/baeksu/saveImage/assets/37931758/393a94b5-b513-423c-a064-0f9a78db1123">
 </p>
