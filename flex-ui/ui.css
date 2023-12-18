@@ -50,3 +50,11 @@
     border-radius: 0.3em;
     font-size: 1rem;
 }
+
+/* bullet list */
+.info-list-item {
+    display: flex;
+}
+.info-list-item:before {
+    content: "";
+}
