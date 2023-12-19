@@ -12,7 +12,11 @@
             <li class="user-item message-item">
                 <!-- figure 를 쓰는 이유 : 어떤건 납작하고, 어떤건 세로로 긴 이미지가 들어온다고 할 때 이미지 태그 자체의 위치를 조정하기에는 번거롭다고 한다. -->
                 <!-- 이때 이미지와 관련된 부분만 background-image 속성을 inline 스타일로 적용하는게 좀더 직관적이다. -->
-                <figure class="user-photo" style="background-image: url(/img/sample1.png)"></figure>
+                <!-- 근데 이거 img 태그로 해봤는데, 차이를 모르겠는데;; 뭔가 불편한 상황이 나올때 figure 를 써봐야 하나? -->
+                <!-- chatgpt 에 물어보니까 디자인적으로 좀 더 유연하게 사용할 수 있나보네, 예를들면 이미지 위에 글씨를 쓰고싶다던가?  -->
+                <figure class="user-photo" style="background-image: url(/img/sample1.png)">
+                    <p>HELLO</p>
+                </figure>
                 <p class="message-content">Hello! i'm studying in the cafe</p>
             </li>
             <li class="user-item message-item">
