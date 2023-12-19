@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./default.css" />
+        <link rel="stylesheet" href="./ui.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <ul class="user-list message-list">
+            <li class="user-item message-item">
+                <!-- figure 를 쓰는 이유 : 어떤건 납작하고, 어떤건 세로로 긴 이미지가 들어온다고 할 때 이미지 태그 자체의 위치를 조정하기에는 번거롭다고 한다. -->
+                <!-- 이때 이미지와 관련된 부분만 background-image 속성을 inline 스타일로 적용하는게 좀더 직관적이다. -->
+                <figure class="user-photo" style="background-image: url(/img/sample1.png)"></figure>
+                <p class="message-content">Hello! i'm studying in the cafe</p>
+            </li>
+            <li class="user-item message-item">
+                <figure class="user-photo" style="background-image: url(/img/sample2.png)"></figure>
+                <p class="message-content">
+                    My business trip at hungary! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt neque, laborum similique totam officia accusantium corrupti, adipisci, praesentium tempore et architecto quibusdam voluptate consequuntur dolor fugit iusto enim iure? Incidunt.
+                </p>
+            </li>
+        </ul>
+    </body>
+</html>
