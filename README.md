@@ -47,13 +47,39 @@
 
 ---
 
-## 💡message 리스트 (프로필)
+## 💡message 리스트
 
 메신져방에서 프로필과 메세지를 적을때 유용하게 사용할 수 있을듯!
 
 -   flex-shrink 설정을 한 이유는 메세지 길이에 따라서 프로필 영역이 찌그러질 수 있는데, 이걸 방지하려고
--   img 태그 대신에 figure 태그와 background-image 속성을 이용하는 이유는 개발 요구사항에 따라 나뉘는듯, figure를 사용하면 디자인적으로 좀 더 다양한 요소를 활용할 수 있는듯
+-   img 태그 대신에 figure 태그와 background-image 속성을 이용하는 이유는 개발 요구사항에 따라 나뉘는듯, figure를 사용하면 디자인적으로 좀 더 다양한 요소를 활용할 수 있는듯 (캡쳐본처럼 이미지 위에 글자를 쓴다거나)
 
 <p align="center">
 <img width="400" alt="image" src="https://github.com/baeksu/saveImage/assets/37931758/5e48047c-0385-4e72-b68c-cca9d01bedae">
+</p>
+
+---
+
+## 💡user 리스트 (프로필)
+
+카톡 프로필 화면처럼 프로필과 상태메세지가 함께 나오는 화면에 유용할 듯. 너무 긴 글자는 **"..."** 으로 생략할 수 있게
+
+세가지 css 속성만 기억해두자
+
+```
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+```
+
+<p align="center">
+<img width="300" height="300" alt="image" src="https://github.com/baeksu/saveImage/assets/37931758/4d2aeb04-1582-49a9-aba3-0dcd352fd47d">
+</p>
+
+---
+
+## 💡modal 창
+
+<p align="center">
+<img width="300" height="300" alt="image" src="https://github.com/baeksu/saveImage/assets/37931758/c06b252a-4c35-4e55-8ddf-169d13ebf1cd">
 </p>

@@ -79,3 +79,35 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* user-list */
+.friend-item {
+    align-items: center;
+}
+.user-name {
+    /* 사이즈 넘어가는 글자들을 "..." 으로 표시하고 싶을 때는 아래 세개 속성을 외우자 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* modal */
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.dialog {
+    background-color: white;
+    /* 전체 화면중에 50% 를 dialog 창크기로 할거다 */
+    width: 50vw;
+    padding: 2em;
+    border-radius: 0.5rem;
+}
