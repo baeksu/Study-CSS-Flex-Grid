@@ -114,11 +114,14 @@
 
 /* card-list */
 .card-item {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 2rem;
+    list-style: none;
 }
 
 .card-image {
-    /* height: 300px; */
+    width: 100%;
     padding-bottom: 60%;
     background-color: lightgray;
     background-repeat: no-repeat;
@@ -127,6 +130,7 @@
 }
 
 .card-desc {
+    flex: auto;
     padding: 1em;
     background: white;
 }
@@ -143,9 +147,9 @@
         padding: 0 1rem;
     }
 }
-
-@media (min-width: 1200px) {
+/* 
+@media (min-width: 900px) {
     .card-item {
         width: 33.33333%;
     }
-}
+} */
