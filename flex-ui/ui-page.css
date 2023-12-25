@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 1rem;
+}
+
+.primary {
+    padding: 1rem;
+}
+
+.secondary-a {
+    background: white;
+}
+
+.secondary-b {
+    color: white;
+    background: #666;
+}
+
+.secondary {
+    padding: 1rem;
+}
+
+.footer {
+    padding: 1rem;
+}

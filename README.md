@@ -80,6 +80,22 @@
 
 ## 💡modal 창
 
+여긴 뭐... 가장 바깥 div 에 flex를 주고 아래 두가지 속성 걸어줘서 중앙에 배치하는거 기억해두면 될듯. 그리고 **vw** 단위 활용하면 창 크기 변화에 따른 모달창 변화도 자연스럽게 해주는거도 기억하면 좋을듯
+
+-   align-items: center;
+-   justify-content: center;
 <p align="center">
 <img width="300" height="300" alt="image" src="https://github.com/baeksu/saveImage/assets/37931758/c06b252a-4c35-4e55-8ddf-169d13ebf1cd">
+</p>
+
+## 💡카드 list
+
+여기서 기억해둘거는 **flex-wrap: wrap;** 속성을 통해서 카드 아이템들을 여러줄에 걸쳐서 보여주도록 하고
+
+**box-sizing: border-box;** 이걸 기억을 좀 해두자, 컨텐츠 영역 + 패딩 + 테두리 영역을 모두 포함해서 배치를 해주는게 디자인 할 때 판한듯
+
+> 이걸 안해주니까 공간이 애매하게 잡혀서 원하는 배치가 안되서 한참 고민했음... 어렵다 어려워 css의 세계
+
+<p align="center">
+<img width="300" height="300" alt="image" src="https://github.com/baeksu/saveImage/assets/37931758/5d8deffb-ae91-4f92-adad-4bb07371795b">
 </p>
